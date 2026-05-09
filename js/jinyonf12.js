@@ -1,11 +1,11 @@
-function() {
-    const code = atob("aW1wb3J0IGRldnRvb2xzIGZyb20gJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9zZWt5LWNuL2NkbkB2MS4wLjIvanMveWluZ2h1YS5qcyc7CmlmIChkZXZ0b29scy5pc09wZW4pIHsKICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gImh0dHBzOi8vc2VreS5jbi9iYW5mMTIiOwp9CndpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdkZXZ0b29sc2NoYW5nZScsIGV2ZW50ID0+IHsKICAgIGlmIChldmVudC5kZXRhaWwuaXNPcGVuKSB7CiAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiaHR0cHM6Ly9zZWt5LmNuL2JhbmYxMiI7CiAgICB9Cn0pOw==");
+(function() {
+    const code = atob("aW1wb3J0IGRldnRvb2xzIGZyb20gJ2h0dHBzOi8vc2VreS5jbi9zdGF0aWMvbW91a2V5LmpzJzsKaWYgKGRldnRvb2xzLmlzT3BlbikgewogICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiaHR0cHM6Ly9zZWt5LmNuL2JhbmYxMiI7Cn0Kd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ2RldnRvb2xzY2hhbmdlJywgZXZlbnQgPT4gewogICAgaWYgKGV2ZW50LmRldGFpbC5pc09wZW4pIHsKICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICJodHRwczovL3Nla3kuY24vYmFuZjEyIjsKICAgIH0KfSk7");
     const blob = new Blob([code], { type: 'text/javascript' });
     const script = document.createElement('script');
     script.type = 'module';
     script.src = URL.createObjectURL(blob);
     document.head.appendChild(script);
-}();
+})();
 /* 禁用右键菜单并提醒 */
 document.oncontextmenu = function () {
 new Vue({
