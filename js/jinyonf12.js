@@ -1,12 +1,4 @@
-(function() {
-    const code = atob("aW1wb3J0IGRldnRvb2xzIGZyb20gJ2h0dHBzOi8vc2VreS5jbi9zdGF0aWMvbW91a2V5LmpzJzsKaWYgKGRldnRvb2xzLmlzT3BlbikgewogICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiaHR0cHM6Ly9zZWt5LmNuL2JhbmYxMiI7Cn0Kd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ2RldnRvb2xzY2hhbmdlJywgZXZlbnQgPT4gewogICAgaWYgKGV2ZW50LmRldGFpbC5pc09wZW4pIHsKICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICJodHRwczovL3Nla3kuY24vYmFuZjEyIjsKICAgIH0KfSk7");
-    const blob = new Blob([code], { type: 'text/javascript' });
-    const script = document.createElement('script');
-    script.type = 'module';
-    script.src = URL.createObjectURL(blob);
-    document.head.appendChild(script);
-})();
-/* 禁用右键菜单并提醒 */
+eval(atob('KGZ1bmN0aW9uKCkgewogICAgbGV0IGRldnRvb2xzT3BlbiA9IGZhbHNlOwogICAgY29uc3QgdGhyZXNob2xkID0gMTYwOwogICAgCiAgICBmdW5jdGlvbiBjaGVjaygpIHsKICAgICAgICBjb25zdCB3aWR0aFRocmVzaG9sZCA9IHdpbmRvdy5vdXRlcldpZHRoIC0gd2luZG93LmlubmVyV2lkdGggPiB0aHJlc2hvbGQ7CiAgICAgICAgY29uc3QgaGVpZ2h0VGhyZXNob2xkID0gd2luZG93Lm91dGVySGVpZ2h0IC0gd2luZG93LmlubmVySGVpZ2h0ID4gdGhyZXNob2xkOwogICAgICAgIGNvbnN0IG5ld1N0YXRlID0gd2lkdGhUaHJlc2hvbGQgfHwgaGVpZ2h0VGhyZXNob2xkOwogICAgICAgIAogICAgICAgIGlmIChuZXdTdGF0ZSAhPT0gZGV2dG9vbHNPcGVuKSB7CiAgICAgICAgICAgIGRldnRvb2xzT3BlbiA9IG5ld1N0YXRlOwogICAgICAgICAgICBpZiAoZGV2dG9vbHNPcGVuKSB7CiAgICAgICAgICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICJodHRwczovL3Nla3kuY24vYmFuZjEyIjsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgc2V0SW50ZXJ2YWwoY2hlY2ssIDUwMCk7CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigncmVzaXplJywgY2hlY2spOwp9KSgpOw=='))
 document.oncontextmenu = function () {
 new Vue({
     data:function(){
