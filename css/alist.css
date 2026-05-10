@@ -1,0 +1,16 @@
+.hope-ui-light .hope-c-PJLV-ikEIIxw-css { background: rgba(255,255,255,.5)!important; backdrop-filter: blur(10px)!important; box-shadow: 0 0 5px 1px #7c7c7c!important; }
+.hope-ui-dark .hope-c-PJLV-ikEIIxw-css { background: rgb(0 0 0 / 50%)!important; backdrop-filter: blur(10px)!important; box-shadow: 0 0 5px 1px #000!important; }
+.hope-c-PJLV-ijgzmFG-css { background-color: rgba(255,255,255,.5)!important; }
+.footer { display: none!important; }
+.hope-ui-light { background-image: url("https://img-api.seky.cn")!important; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center 10%; }
+.hope-ui-dark { background-image: url("https://img-api.seky.cn")!important; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center 85%; }
+.hope-ui-light .header-right .hope-button, .hope-ui-light .left-toolbar, .hope-ui-light .nav, .hope-ui-light .obj-box, .hope-ui-light .hope-c-PJLV-ikSuVsl-css, .hope-ui-light .hope-menu__content, .hope-ui-light .footer-box { background-color: rgba(255,255,255,.5)!important; box-shadow: 0 0 5px 1px #7c7c7c!important; }
+.hope-ui-dark .header-right .hope-button, .hope-ui-dark .left-toolbar, .hope-ui-dark .nav, .hope-ui-dark .obj-box, .hope-ui-dark .hope-c-PJLV-iiuDLME-css, .hope-ui-dark .hope-menu__content, .hope-ui-dark .footer-box { background-color: rgb(0 0 0 / 50%)!important; box-shadow: 0 0 5px 1px #000!important; }
+.hope-ui-light pre { background-color: rgba(255,255,255,.1)!important; }
+.hope-ui-dark pre { background-color: rgba(0,0,0,.1)!important; }
+.hope-ui-light .hope-c-PJLV-iiBaxsN-css { background: rgba(255,255,255,.2)!important; backdrop-filter: blur(10px)!important; }
+.hope-ui-dark .hope-c-PJLV-iiBaxsN-css { background: rgb(0 0 0 / 10%)!important; backdrop-filter: blur(10px)!important; }
+.nav { border-radius: 10px!important; padding: 3px 10px; }
+.body { min-height: 150%!important; }
+.hope-c-PJLV-ikaMhsQ-css { background-color: rgb(0 0 0 / 0%)!important; }
+.aplayer-pic { background-image: url(https://t6.picb.cc/2026/04/12/ujQyTi.th.png)!important; }
