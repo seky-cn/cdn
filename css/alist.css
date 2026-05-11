@@ -1,7 +1,6 @@
 .hope-ui-light .hope-c-PJLV-ikEIIxw-css { background: rgba(255,255,255,.5)!important; backdrop-filter: blur(10px)!important; box-shadow: 0 0 5px 1px #7c7c7c!important; }
 .hope-ui-dark .hope-c-PJLV-ikEIIxw-css { background: rgb(0 0 0 / 50%)!important; backdrop-filter: blur(10px)!important; box-shadow: 0 0 5px 1px #000!important; }
 .hope-c-PJLV-ijgzmFG-css { background-color: rgba(255,255,255,.5)!important; }
-.footer { display: none!important; }
 .hope-ui-light { background-image: url("https://img-api.seky.cn")!important; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center 35%; }
 .hope-ui-dark { background-image: url("https://img-api.seky.cn")!important; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center 35%; }
 .hope-ui-light .header-right .hope-button, .hope-ui-light .left-toolbar, .hope-ui-light .nav, .hope-ui-light .obj-box, .hope-ui-light .hope-c-PJLV-ikSuVsl-css, .hope-ui-light .hope-menu__content, .hope-ui-light .footer-box { background-color: rgba(255,255,255,.5)!important; box-shadow: 0 0 5px 1px #7c7c7c!important; }
