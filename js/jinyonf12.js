@@ -79,7 +79,7 @@ document.oncontextmenu = function () {
     var footer = document.querySelector('.footer');
     if (footer) {
         footer.innerHTML = `<div class="hope-c-PJLV hope-c-PJLV-iicyfOA-css">
-        <div class="body hope-stack hope-c-dhzjXW hope-c-PJLV hope-c-PJLV-iiHckfM-css">
+        <div class="hope-stack hope-c-dhzjXW hope-c-PJLV hope-c-PJLV-iiHckfM-css">
             <div class="obj-box hope-stack hope-c-dhzjXW hope-c-PJLV hope-c-PJLV-igScBhH-css hope-c-PJLV-ikSuVsl-css"
                 style="width: 100%;">
                 <div class="markdown-body" style="text-align: center;">
