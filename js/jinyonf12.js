@@ -75,6 +75,10 @@ document.oncontextmenu = function () {
     })
     return false;
 };
+
+// ============ 修改开始 ============
+var loadTimeInterval = null; // 用于控制只有一个定时器
+
 (function replaceFooter() {
     var footer = document.querySelector('.footer');
     if (footer) {
@@ -116,7 +120,28 @@ document.oncontextmenu = function () {
             </div>
         </div>
       </div>`;
+
+        // 设置耗时函数
+        function setLoadTime() {
+            var el = document.getElementById('load_show');
+            if (el && el.textContent === '载入中...') {
+                $('#load_show').html((new Date().getTime() - start) + 'ms');
+            }
+        }
+
+        // 立即设置
+        setLoadTime();
+        // 短延迟守护
+        setTimeout(setLoadTime, 100);
+        setTimeout(setLoadTime, 300);
+
+        // 每分钟检测一次（仅启动一个定时器）
+        if (!loadTimeInterval) {
+            loadTimeInterval = setInterval(setLoadTime, 60000);
+        }
+
     } else {
         setTimeout(replaceFooter, 100);
     }
 })();
+// ============ 修改结束 ============
