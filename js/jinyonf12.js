@@ -83,7 +83,7 @@ document.oncontextmenu = function () {
             <div class="obj-box hope-stack hope-c-dhzjXW hope-c-PJLV hope-c-PJLV-igScBhH-css hope-c-PJLV-ikSuVsl-css"
                 style="width: 100%;">
                 <div class="markdown-body" style="text-align: center;">
-                    <h2 key="h2-1-1-0" id="load_title"></h2>
+                    <h2 key="h2-1-1-0">欢迎使用 𝓜𝓇•𝒲𝓊 云盘</h2>
                     <strong><span class="far fa-clock"></span> 本站已稳定运行：</strong>
                     <strong id="day_show">载入中...</strong>
                     <br>
