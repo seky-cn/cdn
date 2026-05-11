@@ -1,4 +1,4 @@
-eval(atob('KGZ1bmN0aW9uKCkgewogICAgbGV0IGRldnRvb2xzT3BlbiA9IGZhbHNlOwogICAgY29uc3QgdGhyZXNob2xkID0gMTYwOwogICAgCiAgICBmdW5jdGlvbiBjaGVjaygpIHsKICAgICAgICBjb25zdCB3aWR0aFRocmVzaG9sZCA9IHdpbmRvdy5vdXRlcldpZHRoIC0gd2aW5kb3cuaW5uZXJXaWR0aCA+IHRocmVzaG9sZDsKICAgICAgICBjb25zdCBoZWlnaHRUaHJlc2hvbGQgPSB3aW5kb3cub3V0ZXJIZWlnaHQgLSB3aW5kb3cuaW5uZXJIZWlnaHQgPiB0aHJlc2hvbGQ7CiAgICAgICAgY29uc3QgbmV3U3RhdGUgPSB3aWR0aFRocmVzaG9sZCB8fCBoZWlnaHRUaHJlc2hvbGQ7CiAgICAgICAgCiAgICAgICAgaWYgKG5ld1N0YXRlICE9PSBkZXZ0b29sc09wZW4pIHsKICAgICAgICAgICAgZGV2dG9vbHNPcGVuID0gbmV3U3RhdGU7CiAgICAgICAgICAgIGlmIChkZXZ0b29sc09wZW4pIHsKICAgICAgICAgICAgICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gImh0dHBzOi8vc2VreS5jbi9iYW5mMTIiOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgCiAgICBzZXRJbnRlcnZhbChjaGVjaywgNTAwKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdyZXNpemUnLCBjaGVjayk7Cn0pKCk7'));
+eval(atob('KGZ1bmN0aW9uKCkgewogICAgbGV0IGRldnRvb2xzT3BlbiA9IGZhbHNlOwogICAgY29uc3QgdGhyZXNob2xkID0gMTYwOwogICAgCiAgICBmdW5jdGlvbiBjaGVjaygpIHsKICAgICAgICBjb25zdCB3aWR0aFRocmVzaG9sZCA9IHdpbmRvdy5vdXRlcldpZHRoIC0gd2luZG93LmlubmVyV2lkdGggPiB0aHJlc2hvbGQ7CiAgICAgICAgY29uc3QgaGVpZ2h0VGhyZXNob2xkID0gd2luZG93Lm91dGVySGVpZ2h0IC0gd2luZG93LmlubmVySGVpZ2h0ID4gdGhyZXNob2xkOwogICAgICAgIGNvbnN0IG5ld1N0YXRlID0gd2lkdGhUaHJlc2hvbGQgfHwgaGVpZ2h0VGhyZXNob2xkOwogICAgICAgIAogICAgICAgIGlmIChuZXdTdGF0ZSAhPT0gZGV2dG9vbHNPcGVuKSB7CiAgICAgICAgICAgIGRldnRvb2xzT3BlbiA9IG5ld1N0YXRlOwogICAgICAgICAgICBpZiAoZGV2dG9vbHNPcGVuKSB7CiAgICAgICAgICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICJodHRwczovL3Nla3kuY24vYmFuZjEyIjsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgc2V0SW50ZXJ2YWwoY2hlY2ssIDUwMCk7CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigncmVzaXplJywgY2hlY2spOwp9KSgpOw=='));
 
 if (window.ActiveXObject || "ActiveXObject" in window) {
     $('#load_title').html("暂时不支持IE浏览器访问，请使用其他浏览器");
@@ -116,11 +116,6 @@ document.oncontextmenu = function () {
             </div>
         </div>
       </div>`;
-
-        // ===== 只加了下面这一行 =====
-        $('#load_show').html((new Date().getTime() - start) + 'ms');
-        // =============================
-
     } else {
         setTimeout(replaceFooter, 100);
     }
