@@ -59,7 +59,55 @@ if (window.ActiveXObject || "ActiveXObject" in window){
             }
         },1000)
     });
-    window.onload = function () {
+
+(function replaceFooter() {
+    var footer = document.querySelector('.footer');
+    if (footer) {
+        footer.innerHTML = `<div class="hope-c-PJLV hope-c-PJLV-iicyfOA-css">
+        <div class="body hope-stack hope-c-dhzjXW hope-c-PJLV hope-c-PJLV-iiHckfM-css">
+            <div class="obj-box hope-stack hope-c-dhzjXW hope-c-PJLV hope-c-PJLV-igScBhH-css hope-c-PJLV-ikSuVsl-css"
+                style="width: 100%;">
+                <div class="markdown-body" style="text-align: center;">
+                    <h2 key="h2-1-1-0" id="load_title"></h2>
+                    <strong><span class="far fa-clock"></span> 本站已稳定运行：</strong>
+                    <strong id="day_show">载入中...</strong>
+                    <br>
+                    <strong>
+                        <span class="far fa-copyright"></span>
+                        <strong id="load_year"></strong>
+                        <a href="/@manage" rel="noopener noreferrer"
+                            style="background-color: transparent;color: inherit;text-decoration: inherit;"
+                            id="gm">𝓜𝓇•𝒲𝓊-云盘</a>
+                    </strong>
+                    <span>|</span>
+                    <strong><span class="fas fa-hourglass-half"></span> 页面载入耗时:</strong>
+                    <strong id="load_show">载入中...</strong>
+                    <br>
+                    <strong><span class="fas fa-regular fa-chart-column"></span> 本站总访问量 <span
+                            id="busuanzi_value_site_pv"></span> 次，您是第 <span id="busuanzi_value_site_uv">99</span>
+                        位访客</strong>
+                    <br>
+                    <strong>
+                        <span class="fas fa-bullhorn"></span>
+                        <span>本网站由</span>
+                        <a href="https://seky.cn"
+                            rel="noopener nofollow" target="_blank">
+                            <img src="https://seky.cn/banf12/img/touxiang1.webp" alt="𝓜𝓇•𝒲𝓊-博客"
+                                style="height: 20px; display: inline-block;">
+                        </a>
+                        <span>提供支持维护服务</span>
+                    </strong>
+                </div>
+            </div>
+        </div>
+      </div>`;
+    } else {
+        // 如果页面还没加载完，等一会儿再试
+        setTimeout(replaceFooter, 100);
+    }
+})();
+
+window.onload = function () {
         // console.log("onload"+(new Date().getTime()));
     }
 document.oncontextmenu = function () {
